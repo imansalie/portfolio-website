@@ -1,0 +1,133 @@
+/* Header Styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffb6c1; /* Bubblegum Pink */
+    color: #fff;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Introduction Section */
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #89cff0; /* Baby Blue */
+    color: #fff;
+}
+
+.intro-text {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.intro-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Portfolio Section */
+#portfolio {
+    margin: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffb6c1; /* Bubblegum Pink */
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#portfolio article {
+    background-color: #f0f8ff; /* Light Baby Blue */
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Collaboration Section */
+#collaborate {
+    background-color: #ffb6c1; /* Bubblegum Pink */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#collaborate h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#collaborate p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#collaborate button {
+    background-color: #89cff0; /* Baby Blue */
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffb6c1; /* Bubblegum Pink */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
